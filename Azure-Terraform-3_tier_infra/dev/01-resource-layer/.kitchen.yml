@@ -1,0 +1,13 @@
+driver:
+  name: terraform
+  root_module_directory: test/fixtures/resource_module_test
+  command_timeout: 1200
+
+provisioner:
+  name: terraform
+
+platforms:
+  - name: terraform
+
+suites:
+  - name: vm_module_test

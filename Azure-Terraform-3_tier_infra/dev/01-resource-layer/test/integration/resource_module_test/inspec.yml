@@ -1,0 +1,5 @@
+---
+name: kpmg-resource-layer-test
+depends:
+  - inspec-azure:
+    git: https://github.com/inspec/inspec-azure.git

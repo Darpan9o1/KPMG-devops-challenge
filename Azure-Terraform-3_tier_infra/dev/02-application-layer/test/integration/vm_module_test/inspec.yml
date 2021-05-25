@@ -1,0 +1,8 @@
+---
+name: kpmg-vm-test
+depends:
+  - inspec-azure:
+    git: https://github.com/inspec/inspec-azure.git
+supports:
+  - platform: azure
+  - os-family: linux
