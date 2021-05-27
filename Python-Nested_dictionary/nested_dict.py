@@ -1,4 +1,4 @@
-
+# Function to get object, key and return final value
 def n_dict(object,key):
     key_values = key.split("/")
     key_length = len(key_values)
@@ -19,8 +19,6 @@ def n_dict(object,key):
 if __name__ == '__main__':
     inp = input("Please enter nested dictionary: ")
     key = input("Please enter dictionary key (e.g. x/y/z): ")
-
-    while True:
         
-    o = n_dict(inp,key)        
-    print(o)
+    output = n_dict(inp,key)        
+    print(output)
